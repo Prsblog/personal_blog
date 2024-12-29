@@ -6,14 +6,16 @@ import About from "./components/about/About";
 import Services from "./components/services/Services"
 import Contact from "./components/contact/Contact";
 import Blog from "./components/blog/Blog";
-
+import Resume from "./components/resume/Resume";
 import Portfolio from "./components/portfolio/Portfolio";
 
 import Testimonial from "./components/testimonials/Testimonials";
-import Newsletter from "./components/newsletter/Newsletter";
+import Pricing from "./components/pricing/Pricing";
 
 const  App = () =>{
   return (
+    
+    
     <div>
         <Sidebar />
       <div className="main">
@@ -22,11 +24,14 @@ const  App = () =>{
         <Home />
         <About/>
         <Services />
-        <Blog />
+        
+        <Resume />
         <Portfolio/>
-        <Contact />  
+        <Blog />
         <Testimonial />
-        <Newsletter />
+        <Pricing />
+        <Contact /> 
+        
         
       </div>
     </div>
@@ -34,4 +39,3 @@ const  App = () =>{
 }
 
 export default App;
-

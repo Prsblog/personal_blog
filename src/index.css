@@ -34,7 +34,7 @@
 }
 
 /*=========== rensponsive typography============*/
-@media screen and (max-width: 1024px) {
+@medium screen and (max-width: 1024px) {
     :root {
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
@@ -155,3 +155,6 @@ img{
     }
 }
 
+.btn:hover {
+
+}
