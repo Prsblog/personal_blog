@@ -24,7 +24,7 @@
 
 .home__name {
     font-size: var(--h1-font-size);
-    font-weiht: var(--font-bold);
+    font-weight: var(--font-bold);
     margin-bottom: 0.5rem;
 }
 
@@ -182,7 +182,7 @@
 
 @media screen and (max-width: 1024px) {
     .home__social-link {
-        font_size: -110px;
+        font-size: -110px;
     }
   }
 
